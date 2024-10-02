@@ -51,6 +51,7 @@ Este projeto é um Conversor de Texto para Áudio com uma interface amigável e 
 ├── package.json        # Informações sobre o projeto e dependências
 ├── server.js           # Servidor Node.js para rodar a aplicação
 └── README.md           # Documentação do projeto (este arquivo)
+└── vercel.json         # Configuração executada na Vercel
 ```
 
 # Instalação e execução
@@ -61,7 +62,7 @@ git clone https://github.com/seu-usuario/texto-to-speech.git
 ```
 - *Entre na pasta raiz:*
 ```plaintext
-- cd texto-to-speech
+cd texto-to-speech
 ```
 - *Use o comando para instalar todas bibliotecas* 
 ```plaintext
