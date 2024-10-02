@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Conversão de Texto para Áudio</title>
+</head>
+<body>
+    <h1>Conversão de Texto para Áudio</h1>
+    <form action="/speak" method="POST" id="textForm">
+        <textarea name="text" placeholder="Digite seu texto aqui" required></textarea>
+        <div class="button-container">
+            <button type="submit" class="submit">Converter para áudio</button>
+            <button type="button" class="clear" onclick="clearText()">Limpar Texto</button>
+            <button type="button" class="modify" id="toggle-theme">Acessibilidade</button>
+        </div>
+    </form>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
